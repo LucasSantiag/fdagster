@@ -2,4 +2,6 @@
 
 docker-compose down
 
+minikube stop
+
 colima stop
