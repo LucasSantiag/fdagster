@@ -1,0 +1,5 @@
+load_from:
+  - grpc_server:
+      host: localhost
+      port: 4444
+      location_name: "src"

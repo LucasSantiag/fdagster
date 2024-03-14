@@ -1,0 +1,8 @@
+storage:
+  mysql:
+    mysql_db:
+      username: "dagster"
+      password: "dagstersecret"
+      hostname: "localhost"
+      db_name: "dagster"
+      port: 3306
