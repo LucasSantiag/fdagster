@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dagster-code-location
+spec:
+  selector:
+    matchLabels:
+      app: dagster-code-location
+  template:
+    metadata:
+      labels:
+        app: dagster-code-location
+    spec:
+      containers:
+        - name: dagster-code-location
+          image: dagster-code-location:lastest
+          imagePullPolicy: Never

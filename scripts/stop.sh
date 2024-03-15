@@ -1,6 +1,6 @@
 ## Stop MacOS
 
-docker-compose down
+docker-compose -f docker/docker-compose.yaml down
 
 minikube stop
 
