@@ -8,10 +8,14 @@ packages = [{include = "data"}]
 
 
 [tool.poetry.dependencies]
-python = "^3.12, <3.13"
+python = "3.9.18"
 dagster = "^1.6.9"
 dagit = "^1.6.9"
 dagster-mysql = "^0.22.9"
+pandas = "^2.2.1"
+tensorflow = "2.14"
+tensorflow-metal = "^1.1.0"
+tensorflow-macos = "2.14"
 
 
 [build-system]

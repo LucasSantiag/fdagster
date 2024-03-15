@@ -1,5 +1,6 @@
 from dagster import Definitions
-from data.smart_cities.asset import old_asset
+from data.banking.load import load_dataset
+from data.banking.asset import model
 
 
-defs = Definitions(assets=[old_asset])
+defs = Definitions(assets=[load_dataset, model])
